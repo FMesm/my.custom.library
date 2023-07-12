@@ -81,7 +81,7 @@ resources:
   parameters:
     path: ./xs-security.json
     service: xsuaa
-    service-name: umgmycustomlibrary-xsuaa-srv
+    service-name: umgmygreatproject-xsuaa-srv
     service-plan: application
 - name: umgmycustomlibrary-repo-host
   type: org.cloudfoundry.managed-service
