@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<library xmlns="http://www.sap.com/sap.ui.library.xsd">
+    <name>umg.my.custom.library</name>
+    <vendor>François Mesmacque</vendor>
+    <version>0.0.1</version>
+    <copyright>${copyright}</copyright>
+    <title>Custom library</title>
+    <documentation>A custom library for testing purpose</documentation>
+	<dependencies>
+		<dependency>
+			<libraryName>sap.ui.core</libraryName>
+		</dependency>
+	</dependencies>
+</library>
