@@ -26,9 +26,9 @@ modules:
           ServiceKeyName: umgmycustomlibrary-repo-host-key
           sap.cloud.service: umgmygreatproject
         - Authentication: OAuth2UserTokenExchange
-          Name: umgmycustomlibrary_uaa
-          ServiceInstanceName: umgmycustomlibrary-xsuaa-srv
-          ServiceKeyName: umgmycustomlibrary-uaa-key
+          Name: umgmygreatproject_uaa
+          ServiceInstanceName: umgmygreatproject-xsuaa-srv
+          ServiceKeyName: umgmygreatproject-uaa-key
           sap.cloud.service: umgmygreatproject
         existing_destinations_policy: ignore
   build-parameters:
@@ -74,7 +74,7 @@ resources:
           existing_destinations_policy: update
       version: 1.0.0
     service: destination
-    service-name: umgmycustomlibrary-destination-service
+    service-name: umgmygreatproject-destination-service
     service-plan: lite
 - name: umgmygreatproject-uaa
   type: org.cloudfoundry.managed-service
