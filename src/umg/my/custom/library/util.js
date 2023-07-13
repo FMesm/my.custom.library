@@ -7,7 +7,7 @@ sap.ui.define([
     return {
 
         sayHello: function () {
-            MessageToast.show("Hello from my custom library !");
+            MessageToast.show("Hello from my custom library!");
         }
 
     };

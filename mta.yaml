@@ -1,7 +1,7 @@
 _schema-version: "3.2"
 ID: umgmycustomlibrary
 description: A custom library for testing purpose
-version: 0.0.1
+version: 1.0.0
 modules:
 - name: umgmycustomlibrary-destination-content
   type: com.sap.application.content
